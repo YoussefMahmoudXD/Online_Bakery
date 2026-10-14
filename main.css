@@ -1,0 +1,84 @@
+.conten img {
+  width: 50%;
+  height: 75%;
+  align-self: center;
+}
+.content:nth-child(odd) {
+  margin: 0 5% 0 0;
+}
+.content:nth-child(even) {
+  margin: 0 0 0 5%;
+}
+.page:nth-child(even) {
+  background-color: #eee;
+}
+.common-solid {
+  color: #8e7754;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: #8e7754;
+}
+.common {
+  color: white;
+  background-color: #8e7754;
+}
+.page {
+  width: 99vw;
+  height: 100vh;
+}
+.page .conten {
+  display: flex;
+  flex-direction: row;
+
+  padding: 0 9%;
+  height: 100%;
+}
+.page .content {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-self: start;
+  align-items: flex-start;
+  width: 50%;
+}
+main h2 {
+  font-family: "math";
+  font-size: 40px;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+main p {
+  font-family: cursive;
+  font-weight: 400;
+  color: #868c8b;
+}
+.rows {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.diff-page .conten {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 9%;
+  height: 100%;
+}
+.head h2 {
+  text-align: center;
+}
+.pcss {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex: 1;
+}
+.pcs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.pcs img {
+  width: 95%;
+}
